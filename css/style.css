@@ -74,7 +74,7 @@ RESPONSIVE
 
 \*----------------------------*/
 
-.strokeme
+/* .strokeme
 {
     color: navy;
     text-shadow:
@@ -82,11 +82,12 @@ RESPONSIVE
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
-}s
+}s */
 
 body {
 
-  font-family: 'Space Mono', monospace;
+  
+  font-family:'Montserrat', sans-serif;
 
   font-size: 16px;
 
@@ -112,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 
   font-size: 43px;
+  font-family: 'Space Mono', monospace;
 
 }
 
@@ -128,6 +130,7 @@ h2 {
 h3 {
 
   font-size: 22px;
+  font-family:'Montserrat', sans-serif;
 
 }
 
@@ -136,6 +139,7 @@ h3 {
 h4 {
 
   font-size: 16px;
+  font-family:'Montserrat', sans-serif;
 
 }
 
@@ -153,6 +157,12 @@ h4 {
 
 }
 
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
 
 
 a {
@@ -1052,7 +1062,7 @@ textarea.input {
 
   padding: 30px;
 
-  background: #dd0a37;
+  background: #132462;
 
   text-align: right;
 
@@ -1116,7 +1126,7 @@ textarea.input {
 
   color: #FFF;
 
-  background: #dd0a37;
+  background:  #132462;
 
   z-index: 15;
 
@@ -1210,7 +1220,7 @@ textarea.input {
 
   text-align: center;
 
-  background-color: #dd0a37 !important;
+  background-color:  #132462 !important;
 
   border-radius: 50%;
 
@@ -1298,7 +1308,7 @@ textarea.input {
 
   border-radius: 50%;
 
-  background: #dd0a37;
+  background:  #132462;
 
   color: #fff;
 
