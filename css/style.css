@@ -74,11 +74,19 @@ RESPONSIVE
 
 \*----------------------------*/
 
-
+.strokeme
+{
+    color: navy;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}s
 
 body {
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Mono', monospace;
 
   font-size: 16px;
 
@@ -95,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #0b0f28;
 
   font-weight: 700;
+
 
 }
 
@@ -432,7 +441,7 @@ textarea.input {
 
   position: relative;
 
-  background-color: #FFF;
+  background-color: #020237;
 
   border-bottom: 1px solid #0000001a;
 
