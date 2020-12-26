@@ -481,6 +481,23 @@ textarea.input {
 
 }
 
+/* LOOK HERE */
+#header.image-navbar {
+
+  position: absolute;
+
+  left: 0;
+
+  right: 0;
+
+  top: 0;
+
+  background-image:url(./img/half_small.png);
+
+  border-bottom: 1px solid #DADADA30;
+
+}
+
 
 
 #header.fixed-navbar {
@@ -558,7 +575,7 @@ textarea.input {
 
   padding: 30px 15px;
 
-  color: #0b0f28;
+  color: #FFF;
 
   text-transform: uppercase;
 
