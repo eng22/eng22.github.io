@@ -12,7 +12,7 @@ Colors:
 
 	Headers 	: #0b0f28
 
-	Primary 	: #dd0a37
+	Primary 	: #315bba
 
 	Dark 		  : #000
 
@@ -27,6 +27,8 @@ Fonts:
 Table OF Contents
 
 ------------------------------------
+
+EMILY
 
 GENERAL
 
@@ -59,6 +61,55 @@ RESPONSIVE
 ------------------------------------*/
 
 
+/*=========================================================
+
+EMILY
+
+===========================================================*/
+
+@font-face {
+  font-family: 'HACKED';
+  src: url("../fonts/hacked-font/HACKED.woff") format('woff'),
+       url('../fonts/hacked-font/HACKED.svg#HACKED') format('svg'),
+       url('../fonts/hacked-font/HACKED.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hacked';
+  src: url('../fonts/hacked-font/hacked.eot');
+  src: url('../fonts/hacked-font/hacked.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rotate {
+
+  transform: rotate(20deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-10deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-10deg);
+
+  /* IE */
+  -ms-transform: rotate(-10deg);
+
+  /* Opera */
+  -o-transform: rotate(-10deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+
+
 
 /*=========================================================
 
@@ -74,15 +125,6 @@ RESPONSIVE
 
 \*----------------------------*/
 
-/* .strokeme
-{
-    color: navy;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-}s */
 
 body {
 
@@ -103,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
   color: #0b0f28;
 
-  font-weight: 700;
+  /* font-weight: 700; */
 
 
 }
@@ -112,8 +154,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 
-  font-size: 43px;
-  font-family: 'Space Mono', monospace;
+  font-size: 200px;
+  font-family: 'HACKED';
+  /* font-weight: 200; */
 
 }
 
@@ -153,7 +196,8 @@ h4 {
 
 .lead {
 
-  font-size: 20px;
+  font-size: 50px;
+  font-family: "HACKED";
 
 }
 
@@ -183,7 +227,7 @@ a:hover, a:focus {
 
   outline: none;
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -207,7 +251,7 @@ ul, ol {
 
   padding: 14px 50px;
 
-  background: #dd0a37;
+  background: #315bba;
 
   color: #FFF;
 
@@ -267,7 +311,7 @@ textarea.input {
 
 .input:focus {
 
-  border-color: #dd0a37;
+  border-color: #315bba;
 
 }
 
@@ -617,7 +661,7 @@ textarea.input {
 
   left: 0;
 
-  background: #dd0a37;
+  background: #315bba;
 
 }
 
@@ -627,7 +671,7 @@ textarea.input {
 
   background-color: transparent;
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -635,7 +679,7 @@ textarea.input {
 
 #header.transparent-navbar .main-nav li a:hover {
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -723,7 +767,7 @@ textarea.input {
 
   .main-nav li a:hover, .main-nav li a:focus, .main-nav li.active a {
 
-    background-color: #dd0a37;
+    background-color: #315bba;
 
     color: #fff !important;
 
@@ -783,7 +827,7 @@ textarea.input {
 
   text-transform: capitalize;
 
-  font-weight: 900;
+  /* font-weight: 900; */
 
   color: #FFF;
 
@@ -845,7 +889,7 @@ textarea.input {
 
   margin-bottom: 0px;
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -944,7 +988,7 @@ textarea.input {
 
   background: transparent;
 
-  color: #dd0a37;
+  color: #315bba;
 
   width: 90px;
 
@@ -1293,7 +1337,7 @@ textarea.input {
 
 .speaker-modal .speaker-modal-content .speaker-job {
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -1377,7 +1421,7 @@ textarea.input {
 
 .speaker-modal .speaker-modal-content .speaker-events .speaker-event>span strong {
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -1449,7 +1493,7 @@ textarea.input {
 
   width: 4px;
 
-  background-color: #dd0a37;
+  background-color: #315bba;
 
 }
 
@@ -1497,7 +1541,7 @@ textarea.input {
 
   border-radius: 50%;
 
-  background: #dd0a37;
+  background: #315bba;
 
   z-index: 10;
 
@@ -1675,7 +1719,7 @@ textarea.input {
 
 .contact h3 {
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
@@ -1739,7 +1783,7 @@ textarea.input {
 
   font-size: 42px;
 
-  color: #dd0a37;
+  color: #315bba;
 
   cursor: pointer;
 
@@ -1811,7 +1855,7 @@ textarea.input {
 
   border-radius: 50%;
 
-  background: #dd0a37;
+  background: #315bba;
 
   color: #fff;
 
@@ -1941,7 +1985,7 @@ textarea.input {
 
   padding: 7px 14px;
 
-  background: #dd0a37;
+  background: #315bba;
 
   color: #FFF;
 
@@ -2007,7 +2051,7 @@ textarea.input {
 
   height: 30px;
 
-  background-color: #dd0a37;
+  background-color: #315bba;
 
   color: #FFF;
 
@@ -2087,7 +2131,7 @@ textarea.input {
 
   margin-left: 10px;
 
-  color: #dd0a37;
+  color: #315bba;
 
 }
 
