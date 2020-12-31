@@ -28,7 +28,7 @@ Table OF Contents
 
 ------------------------------------
 
-EMILY
+EMILY (custom content)
 
 GENERAL
 
@@ -54,7 +54,6 @@ CTA
 
 FOOTER
 
-BLOG
 
 RESPONSIVE
 
@@ -66,6 +65,9 @@ RESPONSIVE
 EMILY
 
 ===========================================================*/
+
+
+/* Custom Micro-Cosmos Font. Name: HACKED.  */
 
 @font-face {
   font-family: 'HACKED';
@@ -84,12 +86,11 @@ EMILY
   font-style: normal;
 }
 
+
+/* Rotation of object -10 degrees. Matches angle of MC logo if wanted. Currently Unused. */
 .rotate {
 
-  transform: rotate(20deg);
-
-
-  /* Legacy vendor prefixes that you probably don't need... */
+  transform: rotate(-10deg);
 
   /* Safari */
   -webkit-transform: rotate(-10deg);
@@ -100,12 +101,20 @@ EMILY
   /* IE */
   -ms-transform: rotate(-10deg);
 
-  /* Opera */
+  /* Opera. You know, in case someone wants to see this website from their Wii. */
   -o-transform: rotate(-10deg);
 
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
+}
+
+
+.audio {
+  width: 600px; 
+  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+  border-radius: 90px;
+  transform: scale(1.05);
 }
 
 
@@ -145,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 
   color: #0b0f28;
 
-  /* font-weight: 700; */
+ 
 
 
 }
@@ -156,7 +165,6 @@ h1 {
 
   font-size: 200px;
   font-family: 'HACKED';
-  /* font-weight: 200; */
 
 }
 
@@ -833,7 +841,21 @@ textarea.input {
 
 }
 
+.home-content-about h1 {
 
+  text-transform: capitalize;
+  font-size: 100px;
+
+  /* font-weight: 900; */
+
+  color: #FFF;
+
+}
+.home-content-about h3 {
+
+  color: #FFF;
+
+}
 
 .home-content h4 {
 
@@ -1134,6 +1156,12 @@ textarea.input {
 
 
 .speaker .speaker-content>h2 {
+
+  color: #FFF;
+
+}
+
+.speaker .speaker-content>h3 {
 
   color: #FFF;
 
@@ -1879,434 +1907,8 @@ textarea.input {
 
 
 
-/*=========================================================
 
-	BLOG
 
-===========================================================*/
-
-
-
-.blog {
-
-  position: relative;
-
-}
-
-
-
-.blog+.blog {
-
-  margin-top: 60px;
-
-}
-
-
-
-.blog:last-child {
-
-  margin-bottom: 60px;
-
-}
-
-
-
-.blog .blog-img {
-
-  margin-bottom: 30px;
-
-}
-
-
-
-.blog .blog-img>img {
-
-  width: 100%;
-
-}
-
-
-
-.blog .blog-meta {
-
-  margin-bottom: 30px;
-
-  font-size: 12px;
-
-  text-transform: uppercase;
-
-}
-
-
-
-.blog .blog-meta .blog-day {
-
-  display: inline-block;
-
-  margin-right: 15px;
-
-}
-
-
-
-.blog .blog-meta .blog-tags {
-
-  display: inline-block;
-
-  text-transform: uppercase;
-
-}
-
-
-
-.blog .blog-meta .blog-tags li {
-
-  display: inline-block;
-
-  margin-right: 5px;
-
-}
-
-
-
-.blog .blog-meta .blog-tags li:first-child {
-
-  font-weight: 700;
-
-  color: #0b0f28;
-
-}
-
-
-
-.blog .blog-content .read-more {
-
-  display: inline-block;
-
-  padding: 7px 14px;
-
-  background: #315bba;
-
-  color: #FFF;
-
-  text-transform: uppercase;
-
-  border-radius: 2px;
-
-  margin-top: 15px;
-
-  -webkit-transition: 0.3s all;
-
-  transition: 0.3s all;
-
-}
-
-
-
-.blog .blog-content .read-more:hover, .blog .blog-content .read-more:focus {
-
-  opacity: 0.8;
-
-  color: #fff;
-
-}
-
-
-
-.blog .blog-share {
-
-  margin: 30px 0px 60px;
-
-}
-
-
-
-.blog .blog-share li {
-
-  display: inline-block;
-
-  margin-right: 5px;
-
-}
-
-
-
-.blog .blog-share li:first-child {
-
-  line-height: 30px;
-
-  font-weight: 700;
-
-  color: #0b0f28;
-
-}
-
-
-
-.blog .blog-share li a {
-
-  display: inline-block;
-
-  width: 30px;
-
-  height: 30px;
-
-  background-color: #315bba;
-
-  color: #FFF;
-
-  border-radius: 50%;
-
-  line-height: 30px;
-
-  text-align: center;
-
-  -webkit-transition: 0.3s opacity;
-
-  transition: 0.3s opacity;
-
-}
-
-
-
-.blog-share li a:hover {
-
-  opacity: 0.8;
-
-}
-
-
-
-.blog .blog-comments .media {
-
-  margin-top: 30px;
-
-}
-
-
-
-.blog .blog-comments .media .media-left {
-
-  padding-right: 30px;
-
-}
-
-
-
-.blog .blog-comments .media .media-left .media-object {
-
-  width: 90px;
-
-  border-radius: 50%;
-
-}
-
-
-
-.blog .blog-comments .media .media-heading {
-
-  margin-bottom: 30px;
-
-}
-
-
-
-.blog .blog-comments .media .media-heading h4 {
-
-  margin-bottom: 10px;
-
-}
-
-
-
-.blog .blog-comments .media .media-heading .date {
-
-  font-size: 12px;
-
-}
-
-
-
-.blog .blog-comments .media .media-heading .reply-btn {
-
-  margin-left: 10px;
-
-  color: #315bba;
-
-}
-
-
-
-.blog .blog-reply {
-
-  margin-top: 60px;
-
-}
-
-
-
-.blog .blog-reply form {
-
-  margin-top: 30px;
-
-}
-
-
-
-.blog .blog-reply form .form-group {
-
-  margin-bottom: 30px;
-
-}
-
-
-
-/*
-EPISODES!!!!!!!!!!!1
-*/
-
-.audio {
-  width: 600px; 
-  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
-  border-radius: 90px;
-  transform: scale(1.05);
-}
-
-.card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-.card > hr {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.card > .list-group {
-  border-top: inherit;
-  border-bottom: inherit;
-}
-
-.card > .list-group:first-child {
-  border-top-width: 0;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-
-.card > .list-group:last-child {
-  border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
-}
-
-.card > .card-header + .list-group,
-.card > .list-group + .card-footer {
-  border-top: 0;
-}
-
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
-}
-
-.card-title {
-  margin-bottom: 0.75rem;
-}
-
-.card-subtitle {
-  margin-top: -0.375rem;
-  margin-bottom: 0;
-}
-
-.card-text:last-child {
-  margin-bottom: 0;
-}
-
-.card-link:hover {
-  text-decoration: none;
-}
-
-.card-link + .card-link {
-  margin-left: 1.25rem;
-}
-
-.card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.card-header:first-child {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-}
-
-.card-footer {
-  padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.card-footer:last-child {
-  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
-}
-
-.card-header-tabs {
-  margin-right: -0.625rem;
-  margin-bottom: -0.75rem;
-  margin-left: -0.625rem;
-  border-bottom: 0;
-}
-
-.card-header-pills {
-  margin-right: -0.625rem;
-  margin-left: -0.625rem;
-}
-
-.card-img-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1.25rem;
-  border-radius: calc(0.25rem - 1px);
-}
-
-.card-img,
-.card-img-top,
-.card-img-bottom {
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  width: 100%;
-}
-
-.card-img,
-.card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-
-.card-img,
-.card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
-}
-
-.card-deck .card {
-  margin-bottom: 15px;
-}
 
 
 /*=========================================================
