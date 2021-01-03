@@ -619,7 +619,9 @@ textarea.input {
 
 }
 
-
+.main-nav {
+  text-align: center;;
+}
 
 .main-nav li a {
 
@@ -630,6 +632,8 @@ textarea.input {
   color: #FFF;
 
   text-transform: uppercase;
+  
+  text-align:center;
 
   -webkit-transition: 0.3s all;
 
@@ -637,6 +641,21 @@ textarea.input {
 
 }
 
+.main-nav li{
+  display: inline;
+}
+
+.main-nav a{
+  display:inline-block;
+}
+
+.main-nav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 #header.transparent-navbar .main-nav li a {

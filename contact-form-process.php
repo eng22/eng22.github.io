@@ -65,6 +65,10 @@ if (isset($_POST['Email'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
+
+    if ($done)
+    {header("Location: /contact.html");
+    exit;}
 ?>
 
     <!-- include your success message below -->
