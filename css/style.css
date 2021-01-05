@@ -16,7 +16,9 @@ Colors:
 
 	Dark 		  : #000
 
-	Grey 		  : #F9F9FA #DADADA
+  Grey 		  : #F9F9FA #DADADA
+  
+  Micro-Cosmos Navy : #142665
 
 
 
@@ -344,6 +346,24 @@ textarea.input {
 
 
 .section-bg {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-size: cover;
+
+  z-index: -1;
+
+}
+
+.section-bg-nav {
 
   position: absolute;
 
@@ -1847,8 +1867,12 @@ textarea.input {
 
 
 #footer {
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 60px 0px;
+
+  background-color: #142665;
 
 }
 
@@ -1856,7 +1880,7 @@ textarea.input {
 
 .footer-brand {
 
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -1963,6 +1987,12 @@ textarea.input {
 @media only screen and (max-width: 767px) {
 
   .home-content h1 {
+
+    font-size: 70px;
+
+  }
+
+  .home-content h4 {
 
     font-size: 31px;
 
