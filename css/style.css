@@ -1869,8 +1869,9 @@ textarea.input {
 #footer {
   position: absolute;
   bottom: 0;
+
   width: 100%;
-  padding: 60px 0px;
+  padding: 0px 0px;
 
   background-color: #142665;
 
