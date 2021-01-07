@@ -221,7 +221,7 @@ div.transbox {
 
 a {
 
-  color: #0b0f28;
+  color: #142665;
 
   -webkit-transition: 0.3s color;
 
@@ -962,6 +962,10 @@ textarea.input {
 
   color: #0b0f28;
 
+}
+
+.just {
+  text-align:justify;
 }
 
 
