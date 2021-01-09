@@ -171,7 +171,7 @@ h1 {
 }
 
 h6 {
-  font-size: 50px;
+  font-size: 20px;
   font-family: 'HACKED';
   color: white;
 }
@@ -1117,7 +1117,7 @@ textarea.input {
 
   cursor: pointer;
 
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
 }
 
@@ -1169,7 +1169,19 @@ textarea.input {
 
   position: absolute;
 
-  bottom: 60px;
+  bottom: 30px;
+
+  left: 0;
+
+  right: 0;
+
+}
+
+.speaker .speaker-body .zy{
+
+  position: absolute;
+
+  bottom: 50px;
 
   left: 0;
 
@@ -1202,6 +1214,24 @@ textarea.input {
 
 }
 
+.speaker .speaker-content-zyr {
+
+  position: absolute;
+
+  right: 0;
+
+  left: 0;
+
+  padding: 30px 30px 22px 30px;
+
+  background: #132462;
+
+  text-align: right;
+
+  z-index: 20;
+
+}
+
 
 
 .speaker .speaker-content>h2 {
@@ -1216,6 +1246,19 @@ textarea.input {
 
 }
 
+.speaker .speaker-content>h4 {
+
+  color: #FFF;
+
+}
+
+.speaker .speaker-content>h5 {
+
+  color: #FFF;
+  font-size: 13px;
+
+}
+
 
 
 .speaker .speaker-content>span {
@@ -1224,6 +1267,39 @@ textarea.input {
 
 }
 
+
+.speaker .speaker-content-zyr>h2 {
+
+  color: #FFF;
+
+}
+
+.speaker .speaker-content-zyr>h3 {
+
+  color: #FFF;
+
+}
+
+.speaker .speaker-content-zyr>h4 {
+
+  color: #FFF;
+
+}
+
+.speaker .speaker-content-zyr>h5 {
+
+  color: #FFF;
+  font-size: 13px;
+
+}
+
+
+
+.speaker .speaker-conten-zyrt>span {
+
+  color: #fff;
+
+}
 
 
 .speaker .speaker-social {
