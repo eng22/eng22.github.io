@@ -203,7 +203,7 @@
 
           <!-- /section title -->
 
-          <link href="css/contact-form.css" rel="stylesheet">
+          <link href="css/form.css" rel="stylesheet" media="all">
 
           <!-- <div class="fcf-body">
 
@@ -246,26 +246,45 @@
 
           </div> -->
 
-          <form name="contact" method="POST" data-netlify="true">
-            <div class="form-group">
-              <p>
-                <label>Name: <input type="text" name="name" /></label>
-              </p>
+          <div class="page-wrapper bg-dark p-t-100 p-b-50">
+            <div class="wrapper wrapper--w900">
+              <div class="card card-6">
+                <div class="card-heading">
+                  <h2 class="title">Contact Us</h2>
+                </div>
+                <div class="card-body">
+                  <form method="POST">
+                    <div class="form-row">
+                      <div class="name">Full name</div>
+                      <div class="value">
+                        <input class="input--style-6" type="text" name="full_name">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="name">Email address</div>
+                      <div class="value">
+                        <div class="input-group">
+                          <input class="input--style-6" type="email" name="email" placeholder="example@email.com">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="name">Message</div>
+                      <div class="value">
+                        <div class="input-group">
+                          <textarea class="textarea--style-6" name="message"
+                            placeholder="According to all known laws of aviation..."></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn--radius-2 btn--blue-2" type="submit">Submit</button>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <p>
-                <label>Email: <input type="email" name="email" /></label>
-              </p>
-            </div>
-            <div class="form-group">
-              <p>
-                <label><textarea name="message"></textarea>></label>
-              </p>
-            </div>
-            <p>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </p>
-          </form>
+          </div>
         </div>
 
         <!-- row -->
