@@ -66,8 +66,7 @@ if (isset($_POST['Email'])) {
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 
-    header("Location: /contact_confirmation.html");
-    exit();
+    
 ?>
 
     <!-- include your success message below -->
@@ -75,5 +74,7 @@ if (isset($_POST['Email'])) {
 
 
 <?php
+header("Location: /contact_confirmation.html");
+exit();
 }
 ?>
