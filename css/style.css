@@ -355,7 +355,7 @@ textarea.input {
 
   position: relative;
 
-  padding: 90px 0px;
+  padding: 90px 0px 90px 0px;
 
 }
 
@@ -1981,7 +1981,7 @@ textarea.input {
 
 
 #footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
 
   width: 100%;
