@@ -227,7 +227,17 @@ div.transbox {
 
 a {
 
-  color: #142665;
+  color: #ffffff;
+
+  -webkit-transition: 0.3s color;
+
+  transition: 0.3s color;
+
+}
+
+.a-form>a {
+
+  color: #ffffff;
 
   -webkit-transition: 0.3s color;
 
