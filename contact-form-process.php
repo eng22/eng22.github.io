@@ -71,10 +71,10 @@ if (isset($_POST['Email'])) {
 
     <!-- include your success message below -->
 
-
+Something.
 
 <?php
-header("Location: /contact_confirmation.html");
-exit();
+// header("Location: /contact_confirmation.html");
+// exit();
 }
 ?>
