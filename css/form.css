@@ -213,6 +213,7 @@ h3 {
 
 h4 {
   font-size: 18px;
+  padding: 0 15px
 }
 
 h5 {
@@ -321,7 +322,7 @@ h6 {
    #WRAPPER
    ========================================================================== */
 .wrapper {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .wrapper--w960 {
@@ -631,7 +632,7 @@ textarea {
 .card {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 30px;
   background: #fff;
 }
 
@@ -648,8 +649,8 @@ textarea {
   position: relative;
   border: 1px solid #e5e5e5;
   border-bottom: none;
-  padding: 10px 0;
-  padding-bottom: 0;
+  padding: 10px 10px;
+  /* padding-bottom: 0; */
   -webkit-border-top-left-radius: 3px;
   -moz-border-radius-topleft: 3px;
   border-top-left-radius: 3px;
@@ -689,4 +690,9 @@ textarea {
   .card-6 .card-footer {
     padding: 50px 30px;
   }
+  
+  .card-6 .card-body {
+    font-size: 13px;
+  }
+  
 }
