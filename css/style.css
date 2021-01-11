@@ -1700,6 +1700,8 @@ textarea.input {
 
   z-index: 10;
 
+  padding-left: 10px;
+
 }
 
 .event .event-day-img >img {
@@ -1793,6 +1795,7 @@ textarea.input {
 .event .event-content {
 
   padding-left: 160px;
+  padding-right: 50px;
 
   min-height: 120px;
 
