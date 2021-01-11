@@ -138,7 +138,7 @@ EMILY
 
 
 body {
-
+  min-height: 100%;
   
   font-family:'Montserrat', sans-serif;
 
@@ -356,6 +356,8 @@ textarea.input {
   position: relative;
 
   padding: 90px 0px 90px 0px;
+
+  
 
 }
 
@@ -1981,13 +1983,18 @@ textarea.input {
 
 
 #footer {
-  /* position: absolute; */
-  bottom: 0;
+  position: absolute; 
+   bottom: 0;
 
   width: 100%;
   padding: 0px 0px;
 
-  background-color: #142665;
+  background-color: #142665; 
+
+  /* clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px; */
 
 }
 
